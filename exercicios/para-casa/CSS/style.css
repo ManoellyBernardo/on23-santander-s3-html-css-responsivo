@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+#img-naruto-logo {
+  width: 15%;
+  height: 100%;
+}
+
+.apresentacao {
+  background-color: black;
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#img-naruto {
+  width: 30%;
+  height: 30%;
+}
+
+.alinhamento {
+  text-align: justify;
+  margin: 5%;
+}
+
+.kurama {
+  background-color: black;
+  color: orange;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inspiracao {
+  background-image: url(https://sm.ign.com/ign_br/screenshot/default/naruto-ramen-1118729-1280x0-1_yc7h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  justify-content: end;
+  align-items: last baseline;
+}
+
+.alinhamento-inspiracao {
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  margin: 2%;
+  padding: 1%;
+}
+
+.citacoes {
+  background-color: orange;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
+
+footer {
+  background-color: rgb(251, 193, 86);
+  display: flex;
+  justify-content: end;
+}
+
+@media(max-width: 1152px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    padding: 1%;
+  }
+
+  .alinhamento-inspiracao {
+    background-color: white;
+    width: 40em;
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    margin: 2%;
+    padding: 1%;
+  }
+
+  .citacoes {
+    padding: 2em;
+  }
+
+  .citacoes cite {
+    margin: 1em;
+  }
+
+}
